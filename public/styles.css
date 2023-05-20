@@ -1,0 +1,188 @@
+.cardContainer{
+    height: 600px;
+    margin: 100px;
+    display: inline-block;
+    
+}
+
+
+
+
+#instaGIF{
+    height: 750px;
+    position: relative;
+    bottom: 335px;
+    left: 97px;
+}
+
+/* adding the ------Or------ styling  */
+h6 {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  h6:before, h6:after{
+    content: "";
+    color: #ccc;
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  h6:before {
+    margin-right: 10px
+  }
+  h6:after {
+    margin-left: 10px
+  }
+  
+  .card{
+    align-items: center;
+    width:400px;
+    
+  }
+  
+.orText{
+  color: #9a9a9a;
+  font-weight: 550;
+}
+  
+.fa-square-facebook{
+  color: #2851A3;
+}
+#logo{
+  margin: 27px;
+  height: 90px;
+  width: 210px;
+}
+
+
+#loginBtn{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #50b5f9;
+  width: 100%;
+} 
+
+.mid-container{
+  width: 300px;
+}
+
+#LoginWithFBLink{
+  color:#2851A3;
+  font-weight: 500;
+}
+
+.fa-square-facebook{
+  position: relative;
+  top: 3px;
+  font-size: 25px;
+}
+#forgotPassLink{
+  color: #385898;
+  font-size:12px;
+}
+
+#SignUpLink{
+  color: #1877F2;
+  font-weight: 500;
+
+}
+
+/* adding the styles to the buttons over here */
+
+#supOfPlayBtn{
+  position: relative;
+  color: #bbb9b9;
+  right: 10px;
+  font-size: 9px;
+}
+#supOfMircoBtn{
+  position: relative;
+  color: #bbb9b9;
+  font-size: 9px;
+}
+
+#Img{
+  position: relative;
+  right:50px;
+  bottom: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+
+#DownloadBtn{
+  height: 47px;
+  width: 150px;
+}
+
+#buttonHeading{
+  font-size:17px;
+  position: relative;
+  left: 15px;
+  bottom: 52px;
+}
+
+::placeholder {
+  color: #9a9a9a;
+  font-size: 14px;
+}
+
+
+.bottom-div {
+  background-color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+}
+
+.link-list {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.link-list li a {
+  color: #9a9a9a;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+
+
+footer{
+  position: relative;
+  bottom: 293px;
+  font-size: 12px;
+  width: 200px;
+  color: #9a9a9a;
+
+}
+
+.dropdown{
+  position: relative;
+  right:120px;
+  color: #9a9a9a;
+  font-size: 12px;
+  width: 5%;
+  bottom: 259px;
+}
+
+
+input {
+  height: 48px;
+}
+
+.bottomCard{
+  position: relative;
+  bottom: 11px;
+}
